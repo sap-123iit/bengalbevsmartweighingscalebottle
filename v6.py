@@ -16,7 +16,7 @@ SECONDARY_COLOR = "#74b9ff"   # Lighter blue used for active states
 TEXT_COLOR = "#2d3436"        # Dark gray text color
 
 class SmartWeighingScale:
-    DB_PATH = r"E:\bengalbevsmartweighingscalebottle\scale.db"  # Define as class attribute
+    DB_PATH = r"E:\bengalbevsmartweighingscalebottle\scale.db"  # Define as class attribute #mention the database path
 
     def __init__(self, master):
         self.master = master
